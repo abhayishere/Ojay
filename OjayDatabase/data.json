@@ -1,0 +1,33 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Post 1",
+        "content": "This is the first post",
+        "datePosted": "2024-02-25"
+      },
+      {
+        "id": 2,
+        "title": "Post 2",
+        "content": "This is the second edited post",
+        "datePosted": "2024-02-26"
+      }
+    ],
+    "problems": [
+      {
+        "id": 1,
+        "name": "Problem 1",
+        "difficulty": "Easy",
+        "numSolved": 0,
+        "solved": true
+      },
+      {
+        "id": 2,
+        "name": "Problem 2",
+        "difficulty": "Medium",
+        "numSolved": 0,
+        "solved": true
+      }
+    ]
+  }
+  
