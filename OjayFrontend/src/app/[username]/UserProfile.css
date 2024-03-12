@@ -1,0 +1,41 @@
+/* styles.css */
+.header2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav button {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background: #fff;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .main_dev {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+    }
+    
+    h2, h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    }
+    
+    p {
+    margin: 0;
+    padding: 5px 0;
+    }

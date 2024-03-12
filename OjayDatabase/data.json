@@ -1,33 +1,496 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "Post 1",
-        "content": "This is the first post",
-        "datePosted": "2024-02-25"
-      },
-      {
-        "id": 2,
-        "title": "Post 2",
-        "content": "This is the second edited post",
-        "datePosted": "2024-02-26"
-      }
-    ],
-    "problems": [
-      {
-        "id": 1,
-        "name": "Problem 1",
-        "difficulty": "Easy",
-        "numSolved": 0,
-        "solved": true
-      },
-      {
-        "id": 2,
-        "name": "Problem 2",
-        "difficulty": "Medium",
-        "numSolved": 0,
-        "solved": true
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "id": "1",
+      "title": "My opinion on how to practice competitive programming",
+      "content": "I'm not very often replying to questions about how to practice, but as I'm getting enough of them (and I've just seen another blog about practicing) let me tell you about it.Of course, every time when you ask someone good about how to practice, he/she will reply to you to \"solve a lot of problems\" and that's true, there's no other way. Anyway, I've thought about it and actually I'm able to tell a bit more. I know some people, I've seen many people practicing (including me) and I have an opinion.Many people practice in some organized way. High schools organize IOI/OI training contests every Saturday, universities organize ICPC training contests once a week, people try by their own to solve three problems each day, websites host rounds and so on. Here's a secret: it's a sh*t. Yep, that's true. If you want to be really good and to make it happen you compete in a training once a week, you do it only to be able to make excuses \"but I'm training so hard\" when you see no progress.Every really good person gave a part of their life to CP. And I don't mean giving up Saturday parties or having no friends, I kind of mean the part of their minds. You have to really want to get better and find real pleasure in practicing and watching your progress. It also means catching yourself thinking about various problems or seeing algorithmic interpretations in many aspects of real life. You should practice every time when you have an idea \"oh, I'd solve some problem\", \"oh, it'd be good to practice a bit now\" or \"oh, it'd be cool to solve every problem on this website, let's start\". Here's a trick: if you really want to be good, you'll have a lot of such ideas. If you don't have them and you want to just practice weekly, then better go and reconsider if you really want to be better. Do you think that you are bad at combinatorics? Good, you see your weaknesses, go solve some such problems.Do you want to simply solve a few problems? Great, go and solve them as long as they are challenging for you. Or you want to solve every problem from some problemset (still can be a challenge for you). Or you want to upsolve a whole round (still can be a challenge for you). Or you want to have more problems solved on Codeforces than your friend (still can be a challenge for you). Or because of any other reason, but still, don't solve the easiest problems on Codeforces and expect to become good. Do you want to participate in a virtual round? Sure, go and do this. Don't do this if you are sure that you'd solve them. Do this if you want to check if you'd win that round/be better than your friend/something. Challenges, remember? But don't get me wrong, for example, if you are already quite strong and you want to read (or even participate) the problems from div3, which is definitely below your level — it's ok if it's a sign that you are curious about problems and it's interesting for you. Do you really want to get better and compete virtually in two 5-hour contests in a row? Great, go and practice. Want to go and participate in a training organized by your university? Of course, great idea — rivalry, some stress, fun with other people. If you are really practicing and trying to get better, the weekly trainings with your schoolmates/university/teammates will become a nice event for you, but don't depend on them. Also, practicing with your ACM team is a way to create a better team — you have to know your weaknesses and strengths and learn how to cooperate. To make your team better at solving problems when you already know how to cooperate, you have to make yourself better at solving problems. Do you want to skip a training organized by the university and meet your friends/read a book/play some games? Sure, if you don't feel like practicing, then don't force yourself. If you really want to practice and become strong, you'll for sure compete in this contest virtually or something, don't force yourself, just really feel a need to practice. You can't rush art, right? One more time: you really have to have CP in your mind. After solving a problem, it doesn't mean that it's gone and you have to forget about it. Maybe you'll find yourself thinking about some interesting aspects of some task and you'll invent a harder one? I don't know what's more to say. Don't give up? With the right attitude, if you can't solve a problem which is really interesting/important for you, you'll try for a few days — the pleasure and self-satisfaction after solving a problem for a few days with success is one of the best feelings. Also, one last tip: I've noticed it observing all the top people on Codeforces/Atcoder. None of them uses the word \"question\" instead of \"problem\"/\"task\". So don't do it. You won't progress if you'll keep calling problems \"questions\". So yeah, that's my opinion. Let CP get into your mind and find a true desire to practice. Don't try to force yourself to practice in an organized way. I know that this blog may discourage some people, but they wouldn't go far with such an attitude. I also think that it can help people with real potential to become somebody really strong and that's why I wrote it. If any other top-rated coder wants to share his/her way or just point the differences — that's great.",
+      "datePosted": "2024-02-25",
+      "author": "Radewoosh"
+    },
+    {
+      "id": "2",
+      "title": "(The Ultimate) Code Library",
+      "content": "Hey everyone, I am sharing my personal code library where I compiled almost all the important templates that you will need in CP (saying almost just for courtesy). Most of the codes are originally written by me and some of them are collected from others but modified in a cleaner way. Link: https://github.com/ShahjalalShohag/code-library It took me around 4 years to complete the list. Maybe each line is just a line to you but to me it tells a story of the excitements I had while learning those stuffs, the sleepless but fun nights I had to seek knowledge. \\n Why am I sharing this library? Just so that your learning path becomes a bit smoother.Knowledge hidden inside my head or codes in a private code-library will be useless when I am dead, so it's better to share those among people before I die. Also, you can make me happy(as in to pay me) just by upvoting this blog and giving a star to the repository. I believe that my coding style is pretty clean and readable, and furthermore, a few problem links are attached to most of the codes so that you can practice those problems. Best wishes, my friend blobheart.",
+      "datePosted": "2024-02-26",
+      "author": "YouKn0wWho"
+    }
+  ],
+  "users": [
+    {
+      "username": "abcd",
+      "password": "abcd",
+      "role": "user",
+      "problemIdsSolved": [
+        1,
+        3,
+        4
+      ],
+      "postIds": [],
+      "joinedDate": "2023-01-01",
+      "id": "3924"
+    },
+    {
+      "username": "abcd2",
+      "password": "abcd",
+      "role": "user",
+      "problemIdsSolved": [
+        2,
+        4
+      ],
+      "postIds": [],
+      "joinedDate": "2023-02-15",
+      "id": "319a"
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "role": "admin",
+      "joinedDate": "2023-05-12",
+      "id": "2f69"
+    }
+  ],
+  "problems": [
+    {
+      "id": "1",
+      "difficulty": "Easy",
+      "name": "Palindrome Number",
+      "problem_statement": "Given an integer x, return true if x is a palindrome, and false otherwise.",
+      "constraints": [
+        "-2^31 <= x <= 2^31 - 1"
+      ],
+      "sample_test_cases": [
+        {
+          "id": 1,
+          "input": [
+            "121"
+          ],
+          "output": [
+            "true"
+          ]
+        },
+        {
+          "id": 2,
+          "input": [
+            "-121"
+          ],
+          "output": [
+            "false"
+          ]
+        },
+        {
+          "id": 3,
+          "input": [
+            "10"
+          ],
+          "output": [
+            "false"
+          ]
+        }
+      ],
+      "solved": 5
+    },
+    {
+      "id": "2",
+      "difficulty": "Medium",
+      "name": "Jump Game",
+      "problem_statement": "You are given an integer array nums.\\n You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.",
+      "constraints": [
+        "1 <= nums.length <= 10^4",
+        "0 <= nums[i] <= 10^5"
+      ],
+      "sample_test_cases": [
+        {
+          "id": 1,
+          "input": [
+            "5",
+            "2 3 1 1 4"
+          ],
+          "output": [
+            "true"
+          ]
+        },
+        {
+          "id": 2,
+          "input": [
+            "5",
+            "3 2 1 0 4"
+          ],
+          "output": [
+            "false"
+          ]
+        }
+      ],
+      "solved": 5
+    },
+    {
+      "id": "3",
+      "difficulty": "Easy",
+      "name": "Climbing Stairs",
+      "problem_statement": "You are climbing a staircase. It takes n steps to reach the top. \n Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?",
+      "constraints": [
+        "1 <= n <= 45"
+      ],
+      "sample_test_cases": [
+        {
+          "id": 1,
+          "input": [
+            "2"
+          ],
+          "output": [
+            "2"
+          ]
+        },
+        {
+          "id": 2,
+          "input": [
+            "3"
+          ],
+          "output": [
+            "3"
+          ]
+        }
+      ],
+      "solved": 5
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode",
+      "id": "e8ad"
+    },
+    {
+      "id": "f1e0",
+      "name": "abhay"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "b4e2",
+      "username": "abhay",
+      "problemID": "1",
+      "code": "some code",
+      "verdict": "passed",
+      "language": "cpp"
+    },
+    {
+      "id": "e16b",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "2905",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "m m ",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "7d9c",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "7513",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "a146",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "1b55",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "501f",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "0a7e",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "7863",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "06b3",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "a721",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "b2e5",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "sdsd",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "c4ee",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "zdfda",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "0471",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "zdfda",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "91d7",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "dsfd",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "6c88",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "sd",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "86a7",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "sd",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "4e41",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "sd",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "4146",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "sd",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "d734",
+      "username": "abcd",
+      "problemID": "3",
+      "code": "sd",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "d13e",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "4542",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "9d8c",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "9f5c",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "6830",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "efe0",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "d2cc",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "0e47",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "82ff",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "e414",
+      "username": "abcd",
+      "problemID": "2",
+      "code": "#include<iostream>\nusing namespace std;\n\nint main(){\n  int n;\n  cin>>n;\n  int nums[n];\n  for(int i=0;i<n;i++)cin>>nums[i];\n  int maxIdx = nums[0];\n  for (int i = 0; i < n; ++i) {\n      if (maxIdx >= n - 1){\n        cout<<\"true\";\n        return 0;\n      }\n\n      if (nums[i] == 0 and maxIdx == i){\n        cout<<\"false\";\n        return 0;\n      }\n\n      if (i + nums[i] > maxIdx) maxIdx = i + nums[i];\n  }\n  cout<<\"true\";\n  return 0;\n}\n",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    },
+    {
+      "id": "30b4",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    cin>>num;\n    temp = num;\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout << num <<\"true\";\n    else\n        cout << num << \"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "b474",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    cin>>num;\n    temp = num;\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "4319",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    cin>>num;\n    temp = num;\n    if(nums<0){\n      cout<<\"false\";\n      return 0;\n    }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "67b8",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    cin>>num;\n    temp = num;\n    if(nums<0){\n      cout<<\"false\";\n      return 0;\n    }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "0783",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    cin>>num;\n    temp = num;\n    if(nums<0){\n      cout<<\"false\";\n      return;\n    }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "5e17",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    cin>>num;\n    temp = num;\n    // if(nums<0){\n    //   cout<<\"false\";\n    //   return;\n    // }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "5e6d",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    string s;\n    cin>>s;\n    num=stoi(s);\n    temp = num;\n    // if(nums<0){\n    //   cout<<\"false\";\n    //   return;\n    // }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "0c3f",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    string s;\n    cin>>s;\n    num=stoi(s);\n    temp = num;\n    if(nums<0){\n      cout<<\"false\";\n      return;\n    }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "e202",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    string s;\n    cin>>s;\n    num=stoi(s);\n    temp = num;\n    if(num<0){\n      cout<<\"false\";\n      return;\n    }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Incorrect",
+      "language": "cpp"
+    },
+    {
+      "id": "c451",
+      "username": "abcd",
+      "problemID": "1",
+      "code": "#include <iostream>\nusing namespace std;\n\nint main ()\n{\n    int num, reverse = 0, rem, temp;\n    string s;\n    cin>>s;\n    num=stoi(s);\n    temp = num;\n    if(num<0){\n      cout<<\"false\";\n      return 0;\n    }\n    while(temp != 0)\n    {\n        rem = temp % 10;\n        reverse = reverse * 10 + rem;\n        temp /= 10;\n    };\n    if (num == reverse)\n        cout <<\"true\";\n    else\n        cout <<\"false\";\n\n}",
+      "verdict": "Correct Answer",
+      "language": "cpp"
+    }
+  ]
+}

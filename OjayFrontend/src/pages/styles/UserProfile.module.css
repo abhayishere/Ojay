@@ -1,0 +1,45 @@
+/* UserProfile.module.css */
+.userProfile {
+    background-color: #2b2b2b; /* Dark grey background */
+    color: #ffffff; /* White text for high contrast */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%; /* Adjust based on layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Preferred font */
+  }
+  
+  .title {
+    color: #ccc; /* Lighter grey for headers */
+  }
+  
+  .pp {
+    margin-bottom: 15px; /* Spacing between paragraphs */
+  }
+  
+  .problemsSolvedTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #333; /* Slightly lighter grey for the table */
+  }
+  
+  .problemsSolvedTable th, .problemsSolvedTable td {
+    border: 1px solid #444; /* Dark grey border for cells */
+    padding: 10px;
+    text-align: left;
+    color: #ddd; /* Light grey for table text */
+  }
+  
+  .problemsSolvedTable th {
+    background-color: #444; /* Dark grey background for header */
+  }
+  
+  .problemsSolvedTable tr:nth-child(even) {
+    background-color: #3c3c3c; /* Alternating row colors for readability */
+  }
+  
+  .problemsSolvedTable tr:hover {
+    background-color: #575757; /* Slightly darker on hover for interactivity */
+  }

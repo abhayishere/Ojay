@@ -1,0 +1,38 @@
+/* styles/Header.module.css */
+
+.header {
+    display: flex; /* Allow horizontal layout for main containers */
+    justify-content: space-between; /* Distribute remaining space evenly */
+    align-items: center; /* Align content vertically */
+    padding: 1rem 2rem; /* Add some padding for visual spacing */
+    height: 1rem;
+  }
+  
+  .containerRight {
+    display: flex;
+    align-items: center; /* Align elements within horizontally */
+    gap: 1rem; /* Add spacing between elements within */
+  }
+  
+  .h1 {
+    font-size: 0.2rem; /* Adjust heading size as needed */
+  }
+  
+  .h2 {
+    font-size: 1rem; /* Adjust sub-heading size as needed */
+    color: #999; /* Optional color for subdued look */
+  }
+  .buttonStyle {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .buttonStyle:hover {
+    background: #0056b3;
+  }
+  

@@ -1,0 +1,49 @@
+/* problems.css */
+
+.problems-container {
+  color: #dcdcdc;
+  background-color: #2b2b2b;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #555;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #2b2b2b;
+}
+
+.name a {
+  color: #4e9af1;
+  text-decoration: none;
+}
+
+.name a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+.topRated {
+    background-color: #2b2b2b; /* Dark background */
+    color: #dcdcdc; /* Light grey text */
+    border-radius: 6px;
+    padding: 1rem;
+    max-width: 400px; /* Adjust as necessary */
+    margin: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .table th, .table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #3c3c3c;
+  }
+  
+  .table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .table td {
+    background-color: #3c3c3c;
+    color: #fff;
+  }
+  
+  .table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .links {
+    text-align: center;
+  }
+  
+  .links a {
+    color: #4e9af1; /* Blue color for links */
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,47 @@
+/* UserProfileStats.module.css */
+
+.userinfo {
+    background-color: #2b2b2b; /* Dark background */
+    color: #fff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 20px auto;
+    max-width: 600px; /* Adjust based on your layout */
+  }
+  
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the user name and icon */
+  }
+  
+  .user span {
+    font-weight: bold;
+  }
+  
+  .fa-caret-down {
+    color: #ccc; /* Light grey for the icon */
+  }
+  
+  .links ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px; /* Space between links */
+  }
+  
+  .links a {
+    color: #4e9af1; /* Bright blue for links */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .links a:hover {
+    color: #dcdcdc; /* Light grey on hover */
+  }
+  

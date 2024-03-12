@@ -1,0 +1,60 @@
+/* globals.css */
+
+.home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posts {
+    background-color: #242424; /* Slightly lighter dark background for sections */
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    flex-basis: 60%; /* Posts take up 75% of the screen width */
+}
+
+.stats {
+    background-color: #242424; /* Slightly lighter dark background for sections */
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    flex-basis: 25%; /* Stats take up the remaining 25% of the screen width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.post {
+    background-color: #2b2b2b; /* Darker background for individual posts */
+    border: 1px solid #333; /* Slightly lighter border for distinction */
+    border-radius: 4px;
+    margin-bottom: 15px; /* Space between posts */
+    padding: 15px;
+}
+
+.post h2 {
+    color: #fff; /* White color for post titles for better readability */
+}
+
+.post p {
+    color: #dcdcdc; /* Light grey for post content */
+}
+
+.userinfo, .ratingstats, .problemstats {
+    background-color: #333; /* Slightly different background for stats sections */
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center; /* Centering content for stats sections */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+    .posts, .stats {
+        flex-basis: 100%; /* Both sections take full width on smaller screens */
+    }
+}

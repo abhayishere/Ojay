@@ -1,0 +1,57 @@
+
+  
+  pre {
+    background-color: #1e1e1e; /* Darker background for code blocks */
+    border: 1px solid #3c3c3c;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto; /* Ensure long code lines are scrollable */
+  }
+  
+  .code-editor-container {
+    border: 2px solid #ffffff; /* Border color for the code editor */
+    border-radius: 4px;
+    margin-bottom: 20px; /* Space below the code editor */
+  }
+  
+  button {
+    background-color: #4c4c4c; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer; /* Mouse cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  button:hover {
+    background-color: #626262; /* Button background on hover */
+  }
+  
+  button:disabled {
+    background-color: #3c3c3c; /* Button background when disabled */
+    cursor: not-allowed; /* Cursor to indicate disabled button */
+  }
+  
+  select {
+    background-color: #1e1e1e; /* Select dropdown background */
+    color: #ffffff; /* Select dropdown text color */
+    border: 1px solid #3c3c3c;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Adjust the select dropdown arrow color */
+  select::-ms-expand {
+    display: none; /* Hide the default arrow in IE/Edge */
+  }
+  
+  select {
+    -webkit-appearance: none; /* Remove the default arrow in WebKit browsers */
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z" fill="%23ffffff"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 12px;
+  }
+  
